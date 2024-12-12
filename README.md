@@ -50,3 +50,15 @@
 | `drowsy/` | 졸음 상태 이미지 | <img src="https://github.com/user-attachments/assets/6e98a220-e440-409b-8329-d5f69d19c788" width="200"> |
 | `normal/` | 정상 상태 이미지 | <img src="https://github.com/user-attachments/assets/6e2db094-f730-4113-9396-a40e28e49f40" width="200"> |
 
+---
+
+## 💻 실행 방법
+
+### 1️⃣ 저장소 클론 및 패키지 설치
+아래 명령어를 사용해 프로젝트 저장소를 로컬로 복사한 후, 필요한 라이브러리를 설치합니다:
+```bash
+git clone https://github.com/your-username/DrowsyDriver-Detection.git
+cd DrowsyDriver-Detection
+pip install -r requirements.txt
+
+
