@@ -127,10 +127,12 @@ DrowsyDriver-Detection/
 ---
 
 ## 🛠️ 사용된 기술
-Python
-TensorFlow
-OpenCV
-MediaPipe
+
+- **Python**
+- **TensorFlow**
+- **OpenCV**
+- **MediaPipe**
+
 
 
 
