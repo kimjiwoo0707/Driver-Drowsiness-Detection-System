@@ -61,4 +61,28 @@ git clone https://github.com/your-username/DrowsyDriver-Detection.git
 cd DrowsyDriver-Detection
 pip install -r requirements.txt
 
+```
+
+### 2️⃣ 프로젝트 실행
+아래 명령어를 사용해 프로그램을 실행하세요:
+```bash
+python main.py
+
+```
+
+3️⃣ 결과 확인
+실행 후 분류 결과는 output/ 디렉토리에 저장됩니다.
+
+---
+
+### 🔍 모델 설명
+본 프로젝트는 **CNN(합성곱 신경망)**을 사용하여 졸음 상태를 감지합니다.
+
+💡 주요 구성 요소:
+
+Face Detection: MediaPipe를 활용해 얼굴을 감지합니다.
+Landmark Extraction: 눈, 입 등 주요 부위를 추출하여 졸음 여부를 분석합니다.
+CNN 분류기: 추출된 데이터를 "Active"와 "Fatigue"로 분류합니다.
+
+
 
