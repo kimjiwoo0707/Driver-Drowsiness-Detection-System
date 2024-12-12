@@ -44,3 +44,9 @@
 
 3️⃣ **데이터 디렉토리 구성**  
    다운로드한 데이터를 아래와 같은 구조로 정리하세요:
+
+그림 dataset/ ├── drowsy/![image](https://github.com/user-attachments/assets/6e98a220-e440-409b-8329-d5f69d19c788)
+
+
+ ├── normal/![image](https://github.com/user-attachments/assets/6e2db094-f730-4113-9396-a40e28e49f40)
+
