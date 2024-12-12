@@ -103,5 +103,33 @@ Dropout, Batch Normalization 등을 활용해 과적합을 방지했습니다.
 손실 값: 0.25
 추론 시간: 이미지 당 평균 0.15초
 
+---
+
+## 📂 프로젝트 구조
+
+DrowsyDriver-Detection/
+├── dataset/
+│   ├── drowsy/          # 졸음 상태 이미지
+│   ├── normal/          # 정상 상태 이미지
+├── models/
+│   ├── model.py         # CNN 모델 코드
+├── scripts/
+│   ├── preprocess.py    # 데이터 전처리 코드
+│   ├── train.py         # 모델 학습 코드
+│   └── evaluate.py      # 모델 평가 코드
+├── output/              # 결과 파일 저장 디렉토리
+├── main.py              # 메인 실행 스크립트
+├── requirements.txt     # 라이브러리 목록
+└── README.md            # 리드미 파일
+
+---
+
+## 🛠️ 사용된 기술
+Python
+TensorFlow
+OpenCV
+MediaPipe
+
+
 
 
