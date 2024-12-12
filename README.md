@@ -107,6 +107,7 @@ Dropout, Batch Normalization 등을 활용해 과적합을 방지했습니다.
 
 ## 📂 프로젝트 구조
 
+```bash
 DrowsyDriver-Detection/
 ├── dataset/
 │   ├── drowsy/          # 졸음 상태 이미지
@@ -121,6 +122,7 @@ DrowsyDriver-Detection/
 ├── main.py              # 메인 실행 스크립트
 ├── requirements.txt     # 라이브러리 목록
 └── README.md            # 리드미 파일
+```
 
 ---
 
