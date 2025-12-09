@@ -57,8 +57,7 @@ pip install scikit-learn
 
 # 3. 데이터셋
 
-
-# 데이터셋 사용 안내
+데이터셋 사용 안내
 
 본 프로젝트는 Kaggle에서 제공하는 [**졸음운전 예측 데이터셋**](https://www.kaggle.com/datasets/rakibuleceruet/drowsiness-prediction-dataset)을 사용하여 학습과 테스트를 진행한다.  
 
