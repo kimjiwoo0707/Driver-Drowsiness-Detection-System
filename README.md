@@ -61,7 +61,7 @@ pip install scikit-learn
 
 본 프로젝트는 Kaggle에서 제공하는 [**졸음운전 예측 데이터셋**](https://www.kaggle.com/datasets/rakibuleceruet/drowsiness-prediction-dataset)을 사용하여 학습과 테스트를 진행한다.  
 
-### 📥 데이터 구성
+### 데이터 구성
 - **drowsy**: 졸음 상태의 운전자 이미지
 - **normal**: 정상 상태의 운전자 이미지
 
