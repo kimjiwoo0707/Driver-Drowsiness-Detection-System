@@ -72,7 +72,7 @@ pip install scikit-learn
 | `normal/` | 정상 상태 이미지 | <img src="https://github.com/user-attachments/assets/6e2db094-f730-4113-9396-a40e28e49f40" width="200"> |
 
 
-### 📈 Data Augmentation
+###  Data Augmentation
 
 
 <img src="https://github.com/user-attachments/assets/7aae4596-44bf-4f2f-81e0-29099661755b" width="500">
