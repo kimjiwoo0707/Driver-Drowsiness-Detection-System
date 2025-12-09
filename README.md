@@ -36,6 +36,20 @@ import torch.nn.functional as F
 from torch.optim.lr_scheduler import (MultiStepLR, StepLR, CyclicLR, CosineAnnealingLR, ExponentialLR)  
 from torchsummary import summary  
 
+# 일반 라이브러리
+
+import argparse  
+import numpy as np  
+import random  
+import os  
+from PIL import Image  
+import matplotlib.pyplot as plt  
+import time  
+from tqdm import tqdm  
+from sklearn.metrics import f1_score  
+from sklearn.model_selection import train_test_split  
+
+
 ---
 
 
