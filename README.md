@@ -77,13 +77,12 @@ pip install scikit-learn
 
 | Transform | 설명 |
 |----------|------|
-| `Resize((145, 145))` | 모든 이미지를 145×145 크기로 통일하여 모델 입력 형태에 맞춤 |
-| `RandomHorizontalFlip(p=0.5)` | 50% 확률로 이미지를 좌우 반전하여 다양한 방향성을 학습 |
-| `RandomRotation(10)` | 이미지를 -10°에서 +10° 범위로 회전시켜 다양한 촬영 각도에 대응 |
-| `ColorJitter(brightness=0.1, contrast=0.1, saturation=0.1, hue=0.05)` | 조명·색감 변화에 강인하도록 밝기·대비·채도·색조를 임의 조절 |
-| `RandomResizedCrop(size=(145, 145), scale=(0.9, 1.0))` | 이미지의 90~100% 영역을 랜덤하게 잘라 145×145로 리사이즈 (다양한 위치·크기 대응) |
-| `ToTensor()` | 이미지를 PyTorch 텐서로 변환하며 픽셀 값을 [0, 1]로 정규화 |
-| `Normalize(mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225])` | ImageNet 평균/표준편차 기준으로 각 채널(RGB)을 정규화 |
+| `rescale=1./255` | 이미지 픽셀 값을 0~1 범위로 정규화 |
+| `rotation_range=10` | 이미지를 ±10° 회전하여 다양한 각도에 대응 |
+| `zoom_range=0.1` | 10% 범위 내에서 랜덤 줌 인/아웃 |
+| `width_shift_range=0.1` | 가로 방향으로 최대 10% 이동 |
+| `height_shift_range=0.1` | 세로 방향으로 최대 10% 이동 |
+| `horizontal_flip=True` | 이미지를 좌우 반전하여 방향성을 다양화 |
 
 ---
 
