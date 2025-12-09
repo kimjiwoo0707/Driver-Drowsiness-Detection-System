@@ -71,6 +71,19 @@ pip install scikit-learn
 | `drowsy/` | 졸음 상태 이미지 | <img src="https://github.com/user-attachments/assets/6e98a220-e440-409b-8329-d5f69d19c788" width="200"> |
 | `normal/` | 정상 상태 이미지 | <img src="https://github.com/user-attachments/assets/6e2db094-f730-4113-9396-a40e28e49f40" width="200"> |
 
+
+### 📈 Data Augmentation
+
+| transform | 내용 |
+|-----------|------|
+| `Resize((224, 224))` | 이미지를 224×224 크기로 변경하여 입력 크기를 통일함 |
+| `RandomHorizontalFlip(p=0.5)` | 50% 확률로 이미지를 좌우 반전시켜 좌우 방향에 대한 일반화 성능을 높임 |
+| `RandomRotation(degrees=10)` | 이미지를 -10도~10도 범위에서 임의로 회전시켜 다양한 각도에 대해 견고한 모델을 학습함 |
+| `ColorJitter(brightness=0.1, contrast=0.1, saturation=0.1, hue=0.05)` | 밝기, 대비, 채도, 색조를 지정된 범위 내에서 임의로 변화시켜 조명·색감 변화에 강인한 특성을 학습함 |
+| `RandomResizedCrop(size=(224, 224), scale=(0.9, 1.0))` | 원본 이미지의 90%~100% 범위를 랜덤하게 잘라낸 뒤 224×224로 리사이즈하여 다양한 크기·위치의 패턴을 학습함 |
+| `ToTensor()` | 이미지를 PyTorch 텐서 형태로 변환하고, 픽셀 값을 [0, 1] 범위로 스케일링함 |
+| `Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])` | ImageNet 통계값을 기준으로 각 채널(RGB)을 정규화하여 학습 안정성과 수렴 속도를 향상함 |
+
 ---
 
 ### 🔍 모델 설명
