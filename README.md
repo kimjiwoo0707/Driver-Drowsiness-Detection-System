@@ -49,6 +49,11 @@ from tqdm import tqdm
 from sklearn.metrics import f1_score  
 from sklearn.model_selection import train_test_split  
 
+# 추가 설치가 필요한 라이브러리
+
+pip install torchsummary  
+pip install tqdm  
+pip install scikit-learn  
 
 ---
 
