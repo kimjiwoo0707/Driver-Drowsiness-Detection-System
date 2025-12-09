@@ -75,7 +75,8 @@ pip install scikit-learn
 ### 📈 Data Augmentation
 
 
-<img width="770" height="317" alt="증강" src="https://github.com/user-attachments/assets/7aae4596-44bf-4f2f-81e0-29099661755b" />
+<img src="https://github.com/user-attachments/assets/7aae4596-44bf-4f2f-81e0-29099661755b" width="500">
+
 ---
 
 ### 🔍 모델 설명
