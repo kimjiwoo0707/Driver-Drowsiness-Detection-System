@@ -25,7 +25,7 @@ torch = 2.0.1+cu117 torchvision = 0.15.2+cu117
 [코랩에서 제공하는 라이브러리 이용]
 
 
-# PyTorch 관련 라이브러리
+### PyTorch 관련 라이브러리
 
 from torchvision import models, transforms  
 from torch.utils.data import DataLoader, Dataset  
@@ -36,7 +36,7 @@ import torch.nn.functional as F
 from torch.optim.lr_scheduler import (MultiStepLR, StepLR, CyclicLR, CosineAnnealingLR, ExponentialLR)  
 from torchsummary import summary  
 
-# 일반 라이브러리
+### 일반 라이브러리
 
 import argparse  
 import numpy as np  
@@ -49,7 +49,7 @@ from tqdm import tqdm
 from sklearn.metrics import f1_score  
 from sklearn.model_selection import train_test_split  
 
-# 추가 설치가 필요한 라이브러리
+### 추가 설치가 필요한 라이브러리
 
 pip install torchsummary  
 pip install tqdm  
