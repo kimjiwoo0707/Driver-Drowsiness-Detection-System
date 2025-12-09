@@ -73,47 +73,6 @@ pip install scikit-learn
 
 ---
 
-### 📥 데이터 다운로드 방법
-
-1️⃣ **Kaggle 페이지에 접속**  
-   [👉 데이터셋 바로가기](https://www.kaggle.com/datasets/rakibuleceruet/drowsiness-prediction-dataset)  
-
-2️⃣ **데이터 다운로드**  
-   Kaggle 계정으로 로그인 후 데이터를 다운로드하세요.
-
-3️⃣ **데이터 디렉토리 구성**  
-   다운로드한 데이터를 아래와 같은 구조로 정리하세요:
-
-| 디렉토리 | 설명           | 예제 이미지 |
-|----------|----------------|-------------|
-| `drowsy/` | 졸음 상태 이미지 | <img src="https://github.com/user-attachments/assets/6e98a220-e440-409b-8329-d5f69d19c788" width="200"> |
-| `normal/` | 정상 상태 이미지 | <img src="https://github.com/user-attachments/assets/6e2db094-f730-4113-9396-a40e28e49f40" width="200"> |
-
----
-
-## 💻 실행 방법
-
-### 1️⃣ 저장소 클론 및 패키지 설치
-아래 명령어를 사용해 프로젝트 저장소를 로컬로 복사한 후, 필요한 라이브러리를 설치합니다:
-```bash
-git clone https://github.com/your-username/DrowsyDriver-Detection.git
-cd DrowsyDriver-Detection
-pip install -r requirements.txt
-
-```
-
-### 2️⃣ 프로젝트 실행
-아래 명령어를 사용해 프로그램을 실행하세요:
-```bash
-python main.py
-
-```
-
-### 3️⃣ 결과 확인
-실행 후 분류 결과는 output/ 디렉토리에 저장됩니다.
-
----
-
 ### 🔍 모델 설명
 본 프로젝트는 **CNN(합성곱 신경망)**을 사용하여 졸음 상태를 감지합니다.
 
