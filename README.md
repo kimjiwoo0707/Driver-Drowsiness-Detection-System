@@ -96,7 +96,7 @@ pip install scikit-learn
 
 ---
 
-### 🔍 모델 설명
+### 모델 설명
 본 프로젝트는 **CNN(합성곱 신경망)**을 사용하여 졸음 상태를 감지합니다.
 
 **💡 주요 구성 요소**:
@@ -125,38 +125,3 @@ Dropout, Batch Normalization 등을 활용해 과적합을 방지했습니다.
 추론 시간: 이미지 당 평균 0.15초
 
 ---
-
-## 📂 프로젝트 구조
-
-```bash
-DrowsyDriver-Detection/
-├── dataset/                # 데이터 파일 디렉토리
-│   ├── drowsy/             # 졸음 상태 이미지
-│   ├── normal/             # 정상 상태 이미지
-├── models/                 # 모델 코드 및 학습된 모델 저장
-│   ├── model.py            # CNN 모델 코드
-├── scripts/                # 주요 Python 코드 스크립트
-│   ├── preprocess.py       # 데이터 전처리 코드
-│   ├── train.py            # 모델 학습 코드
-│   ├── evaluate.py         # 모델 평가 코드
-│   ├── predict.py          # 모델 추론 코드
-│   ├── visualization.py    # 데이터 시각화 코드
-├── output/                 # 결과 파일 저장 디렉토리 (결과 이미지, 로그 등)
-├── main.py                 # 메인 실행 스크립트
-├── requirements.txt        # 필요 라이브러리 목록
-├── README.md               # 프로젝트 설명 파일
-```
-
----
-
-## 🛠️ 사용된 기술
-
-- **Python**
-- **TensorFlow**
-- **OpenCV**
-- **MediaPipe**
-
-
-
-
-
