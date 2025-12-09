@@ -75,15 +75,7 @@ pip install scikit-learn
 ### 📈 Data Augmentation
 
 
-| Transform | 설명 |
-|----------|------|
-| `rescale=1./255` | 이미지 픽셀 값을 0~1 범위로 정규화 |
-| `rotation_range=10` | 이미지를 ±10° 회전하여 다양한 각도에 대응 |
-| `zoom_range=0.1` | 10% 범위 내에서 랜덤 줌 인/아웃 |
-| `width_shift_range=0.1` | 가로 방향으로 최대 10% 이동 |
-| `height_shift_range=0.1` | 세로 방향으로 최대 10% 이동 |
-| `horizontal_flip=True` | 이미지를 좌우 반전하여 방향성을 다양화 |
-
+<img width="770" height="317" alt="증강" src="https://github.com/user-attachments/assets/7aae4596-44bf-4f2f-81e0-29099661755b" />
 ---
 
 ### 🔍 모델 설명
