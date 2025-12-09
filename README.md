@@ -24,6 +24,12 @@ torch = 2.0.1+cu117 torchvision = 0.15.2+cu117
 
 [코랩에서 제공하는 라이브러리 이용]
 
+## 🛠 Tech Stack
+
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white"/>
 
 ### PyTorch 관련 라이브러리
 
