@@ -27,8 +27,8 @@ torch = 2.0.1+cu117 torchvision = 0.15.2+cu117
 
 # PyTorch 관련 라이브러리
 
-from torchvision import models, transforms
-from torch.utils.data import DataLoader, Dataset
+from torchvision import models, transforms  
+from torch.utils.data import DataLoader, Dataset  
 import torch
 import torch.nn as nn
 import torchaudio
