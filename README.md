@@ -33,10 +33,7 @@ import torch
 import torch.nn as nn  
 import torchaudio  
 import torch.nn.functional as F  
-from torch.optim.lr_scheduler import (  
-    MultiStepLR, StepLR, CyclicLR,  
-    CosineAnnealingLR, ExponentialLR  
-)  
+from torch.optim.lr_scheduler import (MultiStepLR, StepLR, CyclicLR, CosineAnnealingLR, ExponentialLR)  
 from torchsummary import summary  
 
 ---
