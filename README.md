@@ -120,8 +120,8 @@ Dropout, Batch Normalization 등을 활용해 과적합을 방지했습니다.
 ---
 
 ## 주요 결과
-Accuracy: 95.7%
-Loss: 0.25
-추론 시간: 이미지 당 평균 0.15초
+Accuracy: 95.7%  
+Loss: 0.25  
+추론 시간: 이미지 당 평균 0.15초  
 
 ---
