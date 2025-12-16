@@ -96,10 +96,9 @@ pip install scikit-learn
 
 ---
 
-### 모델 설명  
+### 모델 설명 (아키텍쳐)  
 
-<img width="332" height="230" alt="CNN_졸음운전_아키텍쳐" src="https://github.com/user-attachments/assets/24ce8b4f-f5f4-4da7-a1b7-3fa1c6c37018" />
-<모델 아키텍처>  
+<img width="332" height="230" alt="CNN_졸음운전_아키텍쳐" src="https://github.com/user-attachments/assets/24ce8b4f-f5f4-4da7-a1b7-3fa1c6c37018" />  
 
 본 프로젝트는 운전자 얼굴 이미지를 입력으로 받아 졸음(drowsy) / 정상(normal) 을 분류하는 2D CNN 기반 이진 분류 모델을 구현하였다.
 모델은 3개의 Convolution Block으로 특징을 추출한 뒤, Flatten–Fully Connected Layer를 통해 최종 확률을 출력한다.
