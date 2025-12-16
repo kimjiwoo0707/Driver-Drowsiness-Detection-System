@@ -96,7 +96,7 @@ pip install scikit-learn
 
 ---
 
-### 모델 설명 (아키텍쳐)  
+# 4. 모델 설명 (아키텍쳐)  
 
 <img width="332" height="230" alt="CNN_졸음운전_아키텍쳐" src="https://github.com/user-attachments/assets/24ce8b4f-f5f4-4da7-a1b7-3fa1c6c37018" />  
 
