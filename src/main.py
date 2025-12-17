@@ -52,3 +52,4 @@ print(f"추론 결과: {result}")
 
 display_image(image_path)
 
+
