@@ -2,6 +2,35 @@
 
 졸음 운전을 감지하는 모델 제작하고자 한다. 총 2개의 class로 구성되어있는 데이터셋을 이용해 모델을 완성하고, 분류한 결과에 따라 졸음 운전 여부에 대한 정보를 출력한다.
 
+## Skills
+<div align="left">
+
+<!-- Python -->
+<img src="https://img.shields.io/badge/Python-FDE68A?style=for-the-badge&logo=python&logoColor=white"/>
+
+<!-- PyTorch -->
+<img src="https://img.shields.io/badge/PyTorch-FECACA?style=for-the-badge&logo=pytorch&logoColor=white"/>
+
+<!-- NumPy -->
+<img src="https://img.shields.io/badge/NumPy-A7F3D0?style=for-the-badge&logo=numpy&logoColor=white"/>
+
+<!-- scikit-learn -->
+<img src="https://img.shields.io/badge/scikit--learn-BFDBFE?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+
+<!-- Audio Processing -->
+<img src="https://img.shields.io/badge/Audio_Processing-FBCFE8?style=for-the-badge&logo=audacity&logoColor=white"/>
+
+<!-- Computer Vision -->
+<img src="https://img.shields.io/badge/Computer_Vision-C7D2FE?style=for-the-badge&logo=opencv&logoColor=white"/>
+
+<!-- Vision Transformer -->
+<img src="https://img.shields.io/badge/Swin_Transformer-E9D5FF?style=for-the-badge&logo=google&logoColor=white"/>
+
+<!-- Flask -->
+<img src="https://img.shields.io/badge/Flask-BAE6FD?style=for-the-badge&logo=flask&logoColor=white"/>
+
+</div>
+
 
 # 1. 개발 동기
 
