@@ -33,3 +33,4 @@ def create_model(input_shape=(145, 145, 3)):
     print(model.summary())
     return model
 
+
